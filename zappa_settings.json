@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "run.app",
+        "aws_region": "ap-southeast-1",
+        "profile_name": "default",
+        "project_name": "twilio",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-twilio1",
+        "debug": true
+       // "manage_roles": false, // Disable Zappa client managing roles.
+       // "role_name": "MyLambdaRole", // Name of your Zappa execution role. Optional, default: <project_name>-<env>-ZappaExecutionRole.
+       // "role_arn": "arn:aws:iam::12345:role/app-ZappaLambdaExecutionRole" // ARN of your Zappa execution role. Optional.
+    }
+}

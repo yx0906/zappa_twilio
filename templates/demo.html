@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serverless Demo</title>
+</head>
+<body>
+
+    <h1>Serverless Demo, Zappa + Twilio</h1>
+    <h2>Send SMS to +15023794925 and texts will appear below</h2>
+    <br>
+    {% for text in texts %}
+        {{ text }}<br>
+    {% endfor %}
+    {# a comment #}
+</body>
+</html>
